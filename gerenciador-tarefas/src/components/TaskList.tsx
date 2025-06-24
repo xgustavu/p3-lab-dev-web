@@ -26,7 +26,7 @@ function TaskList() {
                       checked={task.done}
                       onChange={() => toggleTask(task.id)}
                     />
-                    {task.name} {task.name} ({task.done ? 'Concluída' : 'Pendente'})
+                    {task.name} ({task.done ? 'Concluída' : 'Pendente'})
                   </label>
                 </li>
               ))}
